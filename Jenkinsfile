@@ -41,7 +41,7 @@ pipeline {
 
         stage('Update Lambda Function') {
             steps {
-                withAWS(credentials: 'your-aws-credentials-id', region: "${AWS_REGION}") {
+                withAWS(credentials: '6059e44e-ab73-4d2e-b139-5d5630c319a7', region: "${AWS_REGION}") {
                     script {
                         // Update the Lambda function code with the new JAR file
                         sh """
