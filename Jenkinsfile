@@ -29,7 +29,7 @@ pipeline {
 
         stage('Upload to S3') {
             steps {
-                withAWS(credentials: 'AKIALSKDSMIQOWCYD4PA', region: "${AWS_REGION}") {
+                withAWS(credentials: '6059e44e-ab73-4d2e-b139-5d5630c319a7', region: "${AWS_REGION}") {
                     s3Upload(
                         bucket: "${S3_BUCKET}",
                         file: 'target/LambdaS3Example-1.0.jar',
