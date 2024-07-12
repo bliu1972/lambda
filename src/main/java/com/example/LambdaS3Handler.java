@@ -31,7 +31,7 @@ public class LambdaS3Handler implements RequestHandler<S3Event, String> {
     public String handleRequest(S3Event s3event, Context context) {
         String bucketName = "albertawsbucket";
         String key = "example.txt";
-        String content = "Hello, World!";  // The content you want to upload to S3
+        String content = "Hello, World! How are you!";  // The content you want to upload to S3
 
         // Convert String to InputStream
         InputStream inputStream = new ByteArrayInputStream(content.getBytes());
