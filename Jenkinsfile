@@ -8,6 +8,10 @@ pipeline {
         S3_KEY = '/Users/binliu/projects/spring-cloud/aws_lambda/LambdaS3Example/target/LambdaS3Example-1.0-SNAPSHOT.jar'
     }
 
+   tools {
+        apache-maven-3.9.7
+   }
+
     stages {
         stage('Checkout') {
             steps {
