@@ -30,3 +30,6 @@ Save and Test:
 
 Save the job configuration.
 Push a change to your GitHub repository and verify that Jenkins triggers a build automatically.
+
+
+NOTE: the GitHub url <JENKINS_URL> must match the URL configured on Jenkins under Manage Jenkins > System > Jenkins URL, and cannot be localhost
