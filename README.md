@@ -30,4 +30,3 @@ Save and Test:
 
 Save the job configuration.
 Push a change to your GitHub repository and verify that Jenkins triggers a build automatically.
-
